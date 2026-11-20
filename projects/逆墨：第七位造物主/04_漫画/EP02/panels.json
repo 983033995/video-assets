@@ -1,0 +1,127 @@
+{
+  "episode": "EP02",
+  "version": "2.0",
+  "title": "前六个我",
+  "panels": [
+    {
+      "id": "P01",
+      "beat": "林燧低头看见右腕的07仍在发光，第一反应是强行擦掉编号",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P02",
+      "beat": "零号巨骸高悬在背后的红眼忽然转向上方天幕",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P03",
+      "beat": "天幕发出冰冷的系统播报：非法钥匙已激活，启动回收程序",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P04",
+      "beat": "第一道猩红执法光束刺向少年，巨骸突然将手臂横在中间",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P05",
+      "beat": "光束炸在巨骸旧甲上，碎片和记忆般的纸片向街道飘散",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P06",
+      "beat": "林燧愣住：你不是来毁掉城市的吗？",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P07",
+      "beat": "下方废旧检修井盖弹开，许蓝在电蓝屏幕光中招手",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P08",
+      "beat": "许蓝用短接设备破开警报锁，喊：别和它说话！你会被定位！",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P09",
+      "beat": "少年跟随她跳进维修滑道，红披风刮过锈蚀护栏",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P10",
+      "beat": "巨骸留在地面承受第二轮火力，目光短暂望向检修口",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P11",
+      "beat": "维修通道中许蓝质问：你记得昨天太阳是什么颜色吗？",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P12",
+      "beat": "少年试着回答，却发现记忆里只有天幕的蓝黑",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P13",
+      "beat": "许蓝展开自制记忆谱仪，波形显示少年近七天的记忆发生六次断层",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P14",
+      "beat": "她带林燧穿过旧钟楼下方封锁的停电梯井",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P15",
+      "beat": "地下档案室暗门开启，六个空置的旧披风陈列柜依次出现",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P16",
+      "beat": "每个柜子有一个编号：01、02、03、04、05、06，全部用后期独立排字",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P17",
+      "beat": "少年看到第三件披风上与母亲缝制的一模一样的补丁线",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P18",
+      "beat": "墙上旧监控录像启动：六号少年的面孔在雪花中出现，与林燧完全一致",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P19",
+      "beat": "录像里的六号林燧轻声说：如果你听到这句话，说明我又失败了",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    },
+    {
+      "id": "P20",
+      "beat": "真正的林燧身后，档案室的第七个空柜缓缓亮起红光",
+      "artwork_status": "missing",
+      "dialogue_status": "draft"
+    }
+  ]
+}

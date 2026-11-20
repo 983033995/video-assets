@@ -106,6 +106,25 @@
       "status": "committed",
       "review": "draft",
       "sha256": "ba2a0e8c6f0d0e81dd774cf361663f5126c90d83c3818adc827d37e950b9dbb3"
+    },
+    {
+      "id": "CH-02",
+      "name": "许蓝",
+      "source_filename": "a_highly_detailed_manga_comic_style_character_desi.png",
+      "target_path": "02_角色资产/CH-02_许蓝/许蓝_独立设定_v002_索引色.png",
+      "bytes": 833106,
+      "sha256": "2f82782f7ac87e1acf620a113c7be496ebeb7c5b7fa35f75fb80b336a5c51544",
+      "status": "committed",
+      "review": "draft",
+      "image_format": "png_indexed_256",
+      "original": {
+        "target_path": "02_角色资产/CH-02_许蓝/许蓝_独立设定_v002_原始生成.png",
+        "status": "local_only",
+        "bytes": 3664137,
+        "sha256": "6d8b15b7ab147603afbd2edc5d9c6655c315594e5635b942f3c25f17298dca32",
+        "source_file_id": "file_000000007e9881fb89e16e8b0149844c"
+      },
+      "notes": "索引色PNG已提交作为GitHub可预览版；原始RGB PNG保持原始生成数据，尚未提交，不得标称与原图字节一致"
     }
   ],
   "video": {
@@ -113,5 +132,8 @@
     "shot_count": 12,
     "prompt_folder": "05_视频/EP01/镜头提示词",
     "keyframes_status": "missing"
-  }
+  },
+  "version": "2.0",
+  "last_updated": "2026-11-20",
+  "story_status": "EP01结构化分镜及关键帧提示词v2 ready, keyframes themselves missing"
 }
