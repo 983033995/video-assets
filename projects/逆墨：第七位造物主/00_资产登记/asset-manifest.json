@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.1",
+  "project_id": "NI_MO",
+  "title": "逆墨：第七位造物主",
+  "origin_assets": [
+    {
+      "name": "Picture 1",
+      "status": "missing"
+    },
+    {
+      "name": "Picture 2",
+      "status": "missing"
+    },
+    {
+      "name": "Audio 1",
+      "status": "missing",
+      "usage": "原样使用，禁止重新配音/变速"
+    }
+  ],
+  "binary_policy": "local_only 表示图已经生成但未在GitHub保存字节；不是文件已上传",
+  "images": [
+    {
+      "id": "CH-01",
+      "name": "林燧",
+      "source_filename": "林燧_第七位造物主设定图.png",
+      "target_path": "02_角色资产/CH-01_林燧/林燧_独立设定_v001.png",
+      "bytes": 3741087,
+      "conversation_file_id": "file_00000000c90081f5b66194c015cb635d",
+      "status": "committed",
+      "review": "draft",
+      "sha256": "66c1e56e858eef26280ac7d5786df3088cc514c750b066b4d826273a802cedc6"
+    },
+    {
+      "id": "CH-03",
+      "name": "零号巨骸",
+      "source_filename": "零号巨骸_末世机甲设定图.png",
+      "target_path": "02_角色资产/CH-03_零号巨骸/零号巨骸_独立设定_v001.png",
+      "bytes": 4115356,
+      "conversation_file_id": "file_00000000ea4c81fbb53b047d6deb2bec",
+      "status": "committed",
+      "review": "draft",
+      "sha256": "8be529659f373b8afb9138a533db80d49832a1cb06f6bfc8e7ba9e7c48f13cb6"
+    },
+    {
+      "id": "CH-05",
+      "name": "白砚",
+      "source_filename": "白砚角色设定集_逆墨之脑.png",
+      "target_path": "02_角色资产/CH-05_白砚/白砚_独立设定_v001.png",
+      "bytes": 3581612,
+      "conversation_file_id": "file_00000000d6ac81fbb94389107048458f",
+      "status": "committed",
+      "review": "draft",
+      "sha256": "6b4fb755d7b36836071c2f92daf1bed4d8b6923c68b486b169b52c5f0c8b22c7"
+    },
+    {
+      "id": "CH-06",
+      "name": "陆斩",
+      "source_filename": "逆墨_陆斩角色设定集.png",
+      "target_path": "02_角色资产/CH-06_陆斩/陆斩_独立设定_v001.png",
+      "bytes": 3920471,
+      "conversation_file_id": "file_000000008e5c81fbb16b12a88407c233",
+      "status": "committed",
+      "review": "draft",
+      "sha256": "bf9181f4b22d580a15d91fc6fcde57ab783a185a97fc9dcca93c3b44ab0bf01e"
+    },
+    {
+      "id": "CH-07",
+      "name": "赫尔博士",
+      "source_filename": "赫尔博士角色设定集.png",
+      "target_path": "02_角色资产/CH-07_赫尔博士/赫尔博士_独立设定_v001.png",
+      "bytes": 4068037,
+      "conversation_file_id": "file_0000000046c881f5a5fb415bcd9eed3d",
+      "status": "committed",
+      "review": "draft",
+      "sha256": "a18370fd71c6d98a8f41c23082e98093ce572b14ed0d3b9645a88d7ef5d4fbd2"
+    },
+    {
+      "id": "CH-08",
+      "name": "绘者",
+      "source_filename": "逆墨_第七位造物主设定集.png",
+      "target_path": "02_角色资产/CH-08_绘者/绘者_独立设定_v001.png",
+      "bytes": 3681501,
+      "conversation_file_id": "file_00000000dbc481fb96517d279410a2ab",
+      "status": "committed",
+      "review": "draft",
+      "sha256": "fd22c4de686534942f47606116caf92e1773b0c4248728438ec0ca01acac0c5f"
+    },
+    {
+      "id": "CONCEPT-P01",
+      "name": "漫画页",
+      "source_filename": "a_dynamic_comic_style_manga_storyboard_comic_page.png",
+      "target_path": "04_漫画/EP01/早期分镜单页_v001.png",
+      "bytes": 4053584,
+      "conversation_file_id": "file_0000000023dc81fb80d8f603a19d6e08",
+      "status": "committed",
+      "review": "draft",
+      "sha256": "956a1107a5c41b445dbfca3d79cc7e328c42fcc67b097b375a56c8fe2ec6d5ca"
+    },
+    {
+      "id": "CONCEPT-P02",
+      "name": "综合设定",
+      "source_filename": "a_highly_detailed_cinematic_comic_graphic_design.png",
+      "target_path": "99_早期概念稿/综合美术概念_v001.png",
+      "bytes": 3692835,
+      "conversation_file_id": "file_00000000a24081fbaafb6aebd35d998a",
+      "status": "committed",
+      "review": "draft",
+      "sha256": "ba2a0e8c6f0d0e81dd774cf361663f5126c90d83c3818adc827d37e950b9dbb3"
+    }
+  ],
+  "video": {
+    "episode": "EP01",
+    "shot_count": 12,
+    "prompt_folder": "05_视频/EP01/镜头提示词",
+    "keyframes_status": "missing"
+  }
+}
