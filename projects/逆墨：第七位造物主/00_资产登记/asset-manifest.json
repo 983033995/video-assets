@@ -125,6 +125,21 @@
         "source_file_id": "file_000000007e9881fb89e16e8b0149844c"
       },
       "notes": "索引色PNG已提交作为GitHub可预览版；原始RGB PNG保持原始生成数据，尚未提交，不得标称与原图字节一致"
+    },
+    {
+      "id": "CH-04",
+      "name": "白檐",
+      "source_filename": "a_high_detail_stylized_ink_comic_character_illustr.png",
+      "target_path": "02_角色资产/CH-04_白檐/白檐_独立定妆_候选_v001.png",
+      "conversation_file_id": "file_00000000053081fbb5bb241d2e7eaf8e",
+      "status": "local_only",
+      "review": "draft",
+      "bytes": 1863425,
+      "width": 1024,
+      "height": 1536,
+      "format": "png_rgb",
+      "sha256": "ee2676e4b54c7b6423171fc202d3130cfad15174cd9d394b0f8637a7ad37fd01",
+      "notes": "2026-11-21 生成。只有一位白檐、完整单人站姿候选图；缺正侧背、面罩详解。GitHub 尚未存入 PNG 字节，严禁标作 committed。"
     }
   ],
   "video": {
@@ -133,7 +148,7 @@
     "prompt_folder": "05_视频/EP01/镜头提示词",
     "keyframes_status": "missing"
   },
-  "version": "2.0",
-  "last_updated": "2026-11-20",
-  "story_status": "EP01结构化分镜及关键帧提示词v2 ready, keyframes themselves missing"
+  "version": "3.0-draft",
+  "last_updated": "2026-11-21",
+  "story_status": "EP01 prompt and production continuity package V3; CH04 image local_only; BG02 and comic/keyframe PNG missing"
 }
