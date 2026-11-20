@@ -1,0 +1,177 @@
+{
+  "project_id": "NI_MO",
+  "episode": "EP01",
+  "style_lock": "原创二维手绘漫画电影帧，强烈粗犷油墨笔刷与锯齿状黑色主轮廓，厚重蓝黑阴影，猩红披风和猩红机械核心作为核心对比，极少量青蓝电弧，湿冷午夜都市，纸张纤维、漫画半调网点、局部套印错位、爆裂飞墨、夸张透视，图形化高反差，角色与背景是同一手绘材质，不写实、不三维、无水印。严格匹配已批准角色和背景参考资产。",
+  "negative_lock": "真人摄影、真实皮肤毛孔、柔和影视滤镜、塑料/玩具感3D渲染、金色或紫色占主导、莫名多出人物、额外手指、披风变色、角色变年龄、脸部漂移、巨骸额外眼睛/额外胸核、无法理解的中文假字、直接烧录字幕或logo、背景布局突变、主运动轴左右反转、画面整体过曝。",
+  "audio_status": "missing",
+  "shots": [
+    {
+      "id": "E01_S01",
+      "panels": "P01-P02",
+      "duration_seconds_draft": 6,
+      "camera": "slow push",
+      "keyframes": [
+        "E01_S01_KA.png",
+        "E01_S01_KB.png"
+      ],
+      "needs_audio_alignment": false,
+      "title": "墨港建立镜头",
+      "prompt": "[STYLE_LOCK] 16:9。深蓝黑午夜港口高楼群，红色警报灯横扫雨雾，前景是一处屋顶浅水洼，水洼倒映远处小小的红披风。镜头仅执行一次非常缓慢的向前推进，由城市广角自然抵达屋顶雨水近景，城市地理不变。红色是唯一大面积色彩焦点。禁止生成文字。[NEGATIVE_LOCK]",
+      "state": "script_ready_frames_pending"
+    },
+    {
+      "id": "E01_S02",
+      "panels": "P03-P04",
+      "duration_seconds_draft": 7,
+      "camera": "high-to-low descend",
+      "keyframes": [
+        "E01_S02_KA.png",
+        "E01_S02_KB.png"
+      ],
+      "needs_audio_alignment": false,
+      "title": "俯拍少年英雄",
+      "prompt": "[STYLE_LOCK] 16:9。R7屋顶，小英雄林燧（使用CH-01锁定参考）站在楼顶正中央，双手叉腰，猩红披风被风吹起，鼻梁雀斑清楚、左眉小缺口稳定。他抬起下巴以桀骜笑容直视镜头。摄影机从斜上方俯拍缓慢下降至轻微仰视感，只有一次连续降镜动作；披风和碎纸风动作为次级动画。不要提前开口，不要生成字幕。[NEGATIVE_LOCK]",
+      "state": "script_ready_frames_pending"
+    },
+    {
+      "id": "E01_S03",
+      "panels": "P05-P06",
+      "duration_seconds_draft": 10,
+      "camera": "subtle push",
+      "keyframes": [
+        "E01_S03_KA.png",
+        "E01_S03_KB.png"
+      ],
+      "needs_audio_alignment": true,
+      "title": "造物主宣言",
+      "prompt": "[STYLE_LOCK] 16:9。CH-01面部与上半身近景，保留雀斑、眉缺口、头发翘角和猩红披风扣。摄影机细微缓推，林燧按锁定的原始Audio 1发声节奏张口说出“准备好，见见你的造物主”，表现轻蔑而兴奋；眼睛全程直视镜头。此生成镜头仅负责人脸、口型和披风。文字“准备好 / 见见 / 你的 / 造物主”另以透明叠层按音频逐词合成：骨白填充、超粗墨黑描边、红色偏移阴影、锯齿轮廓、凌乱倾角与强烈前后景遮挡，最后悬于面部和镜头之间。不要在底图中直接生成汉字。[NEGATIVE_LOCK]",
+      "state": "script_ready_frames_pending"
+    },
+    {
+      "id": "E01_S04",
+      "panels": "P07",
+      "duration_seconds_draft": 2,
+      "camera": "whip pan right",
+      "keyframes": [
+        "E01_S04_KA.png",
+        "E01_S04_KB.png"
+      ],
+      "needs_audio_alignment": false,
+      "title": "急速摇镜抹字",
+      "prompt": "[STYLE_LOCK] 16:9。连续承接S03的屋顶位置，镜头只做一次极快的向右水平甩镜，从少年近景急甩到对面城市天际线，笔刷式拖影、横向划墨和红蓝黑残影形成强烈转场。S03文字叠层在合成端随同一运动向量被扫出屏幕。不出现瞬移、不发生新角色动作。[NEGATIVE_LOCK]",
+      "state": "script_ready_frames_pending"
+    },
+    {
+      "id": "E01_S05",
+      "panels": "P08-P09",
+      "duration_seconds_draft": 7,
+      "camera": "ground-up tilt",
+      "keyframes": [
+        "E01_S05_KA.png",
+        "E01_S05_KB.png"
+      ],
+      "needs_audio_alignment": false,
+      "title": "巨骸低角度亮相",
+      "prompt": "[STYLE_LOCK] 16:9。街道地平面极低机位仰视，约70米高的零号巨骸（CH-03锁定参考）屹立在高楼之间，黑色不对称装甲、左肩残损、头顶两枚后叉角、仅两枚红眼、唯一胸前红色圆形心核。摄影机缓慢上仰揭示其完整身形；巨骸暂时只抬起头，胸核从暗红渐亮，楼房尺寸保持一致。蓝电只在头部闪烁。[NEGATIVE_LOCK]",
+      "state": "script_ready_frames_pending"
+    },
+    {
+      "id": "E01_S06",
+      "panels": "P10",
+      "duration_seconds_draft": 8,
+      "camera": "short punch-in and shake",
+      "keyframes": [
+        "E01_S06_KA.png",
+        "E01_S06_KB.png"
+      ],
+      "needs_audio_alignment": true,
+      "title": "机甲巨吼",
+      "prompt": "[STYLE_LOCK] 16:9。延续S05的位置和机甲造型，零号巨骸后仰张开多层金属齿口，发出极具压迫力的巨吼；双眼和胸口唯一核心猩红爆闪，青蓝短电弧划过两只机械角。声音高峰时尘土冲击环向外扩张，楼窗颤裂，骨白放射速度线、墨滴喷溅叠在画面前景。摄影机仅在吼声高峰瞬间短促推近并震动一次，然后定格在咆哮嘴部。不新增其它头颅。[NEGATIVE_LOCK]",
+      "state": "script_ready_frames_pending"
+    },
+    {
+      "id": "E01_S07",
+      "panels": "P11",
+      "duration_seconds_draft": 6,
+      "camera": "locked close-up",
+      "keyframes": [
+        "E01_S07_KA.png",
+        "E01_S07_KB.png"
+      ],
+      "needs_audio_alignment": false,
+      "title": "能量拳套",
+      "prompt": "[STYLE_LOCK] 16:9。林燧的手部近景，蓝黑色指节手套缓慢攥紧，青蓝电流在拳头周围一圈圈缠绕，猩红披风边缘斜穿画面。右腕深处隐约露出两条被遮盖的编号笔画，但暂不清楚看见07。镜头稳定，仅发生一次由松到紧的攥拳动作。全程保持手指数量与关节正确。[NEGATIVE_LOCK]",
+      "state": "script_ready_frames_pending"
+    },
+    {
+      "id": "E01_S08",
+      "panels": "P12-P13",
+      "duration_seconds_draft": 6,
+      "camera": "tracking left-to-right",
+      "keyframes": [
+        "E01_S08_KA.png",
+        "E01_S08_KB.png"
+      ],
+      "needs_audio_alignment": true,
+      "title": "冲锋与甩披风",
+      "prompt": "[STYLE_LOCK] 16:9。承接屋顶位置，林燧左侧起步蹬离女儿墙，带着发亮蓝拳向画面右侧的巨骸胸口全力高速冲去；红披风像长鞭一样甩出清晰S形轨迹。唯一主镜头为左向右高速运动跟拍，背景高楼被锯齿墨痕与放射速度线拉长，但角色面部、披风扣和手部不漂移。后期独立闪现“放马过来”骨白粗黑锯齿字，红色投影并短暂旋转。底图不要生成文字。[NEGATIVE_LOCK]",
+      "state": "script_ready_frames_pending"
+    },
+    {
+      "id": "E01_S09",
+      "panels": "P14",
+      "duration_seconds_draft": 6,
+      "camera": "decelerate then hold",
+      "keyframes": [
+        "E01_S09_KA.png",
+        "E01_S09_KB.png"
+      ],
+      "needs_audio_alignment": false,
+      "title": "击中之前",
+      "prompt": "[STYLE_LOCK] 16:9。漫画极端透视，画面左前景是林燧蓄满青蓝电能的拳头与猩红披风，右远景是巨骸中心唯一猩红心核，主运动从左至右。镜头紧锁拳头逐渐向核心逼近，在只差一掌时骤然减速并短暂停顿，线条仿佛凝固。绝不能在此镜头提前接触或引发爆炸。[NEGATIVE_LOCK]",
+      "state": "script_ready_frames_pending"
+    },
+    {
+      "id": "E01_S10",
+      "panels": "P15",
+      "duration_seconds_draft": 7,
+      "camera": "impact micro push",
+      "keyframes": [
+        "E01_S10_KA.png",
+        "E01_S10_KB.png"
+      ],
+      "needs_audio_alignment": false,
+      "title": "命中与锁孔反转",
+      "prompt": "[STYLE_LOCK] 16:9。直接续接S09的拳头方位与心核比例，蓝拳终于碰到红核，画面爆发一次短促的墨黑放射线、骨白闪帧与猩红震波；但机甲没有被打穿，核心中心出现像锁孔/系统认证阵列的红色环形几何纹。镜头沿碰撞方向极短推进并震屏一次，随后快速恢复稳定。此动作的叙事结果是“激活权限识别”，不是杀死机甲。[NEGATIVE_LOCK]",
+      "state": "script_ready_frames_pending"
+    },
+    {
+      "id": "E01_S11",
+      "panels": "P16-P17",
+      "duration_seconds_draft": 9,
+      "camera": "slow still close-up",
+      "keyframes": [
+        "E01_S11_KA.png",
+        "E01_S11_KB.png"
+      ],
+      "needs_audio_alignment": false,
+      "title": "第七号识别",
+      "prompt": "[STYLE_LOCK] 16:9。碰撞后突然安静，巨骸心核近景如一面深红的圆镜，镜中映出震惊的十二岁林燧的脸，保留雀斑、眉缺口。红扫描线从脸滑到右腕，护腕裂开，露出清晰“07”编号（编号建议后期排版叠加）。摄影机轻微向前贴近后停止，去掉速度线，给观众时间认出同一个人。[NEGATIVE_LOCK]",
+      "state": "script_ready_frames_pending"
+    },
+    {
+      "id": "E01_S12",
+      "panels": "P18",
+      "duration_seconds_draft": 12,
+      "camera": "locked low angle then cut black",
+      "keyframes": [
+        "E01_S12_KA.png",
+        "E01_S12_KB.png"
+      ],
+      "needs_audio_alignment": true,
+      "title": "反向认主与悬念",
+      "prompt": "[STYLE_LOCK] 16:9。极低仰角，巨骸巨大头部缓慢俯下，金属齿口闭合，双红眼由愤怒变得近乎肃穆，胸核平稳脉冲。林燧作为前景极小的剪影站在红色光下，披风停止狂舞。机甲以克制而陌生的机械低音说出“第七位造物主，欢迎归位”；后期独立排版对白，最后以蓝黑墨迹吞没画面切黑。静而压迫，避免继续爆炸。[NEGATIVE_LOCK]",
+      "state": "script_ready_frames_pending"
+    }
+  ]
+}
