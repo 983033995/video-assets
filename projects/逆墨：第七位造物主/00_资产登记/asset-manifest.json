@@ -140,6 +140,21 @@
       "format": "png_rgb",
       "sha256": "ee2676e4b54c7b6423171fc202d3130cfad15174cd9d394b0f8637a7ad37fd01",
       "notes": "2026-11-21 生成。只有一位白檐、完整单人站姿候选图；缺正侧背、面罩详解。GitHub 尚未存入 PNG 字节，严禁标作 committed。"
+    },
+    {
+      "id": "BG-02-A",
+      "name": "R7屋顶高俯拍空景",
+      "source_filename": "a_highly_detailed_comic_style_noir_cyberpunk_rooft.png",
+      "target_path": "03_场景资产/BG-02_R7屋顶/BG02_A_空景_v001.png",
+      "conversation_file_id": "file_0000000018e481fbb55d23163ca87ba2",
+      "bytes": 4031255,
+      "width": 1086,
+      "height": 1448,
+      "format": "png_rgb",
+      "sha256": "36408f861bcc703bf114187f2eeb4fc8661b028e0e4ceb193a2f702d5056f693",
+      "status": "local_only",
+      "review": "draft",
+      "notes": "2026-11-21 生成单张高俯拍空景，双水箱、中央机房、北侧女儿墙缺口与东北断天线可辨；已打包在对话V4独立资产包中，GitHub PNG 尚未提交；未通过人工最终审核。"
     }
   ],
   "video": {
@@ -148,7 +163,7 @@
     "prompt_folder": "05_视频/EP01/镜头提示词",
     "keyframes_status": "missing"
   },
-  "version": "3.0-draft",
+  "version": "4.0-draft",
   "last_updated": "2026-11-21",
-  "story_status": "EP01 prompt and production continuity package V3; CH04 image local_only; BG02 and comic/keyframe PNG missing"
+  "story_status": "V4 CH-04 & BG-02-A independent candidate PNG created, both local_only; EP01 P01–P04 standalone panels still missing, three comic-collage attempts rejected"
 }
