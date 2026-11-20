@@ -1,0 +1,58 @@
+{
+  "episode": "EP01",
+  "source_audio": "Audio 1",
+  "audio_available": false,
+  "policy": "原始音轨不拉伸不变速，仅调整视频长度；文字各为独立透明层",
+  "fps": 24,
+  "words": [
+    {
+      "id": "TX-01",
+      "text": "准备好",
+      "shot": "S03",
+      "start_frame": null,
+      "end_frame": null
+    },
+    {
+      "id": "TX-02",
+      "text": "见见",
+      "shot": "S03",
+      "start_frame": null,
+      "end_frame": null
+    },
+    {
+      "id": "TX-03",
+      "text": "你的",
+      "shot": "S03",
+      "start_frame": null,
+      "end_frame": null
+    },
+    {
+      "id": "TX-04",
+      "text": "造物主",
+      "shot": "S03",
+      "start_frame": null,
+      "end_frame": null
+    },
+    {
+      "id": "TX-05",
+      "text": "放马过来",
+      "shot": "S08",
+      "start_frame": null,
+      "end_frame": null
+    },
+    {
+      "id": "TX-06",
+      "text": "07",
+      "shot": "S11",
+      "start_frame": null,
+      "end_frame": null
+    },
+    {
+      "id": "TX-07",
+      "text": "第七位造物主，欢迎归位",
+      "shot": "S12",
+      "start_frame": null,
+      "end_frame": null
+    }
+  ]
+}
