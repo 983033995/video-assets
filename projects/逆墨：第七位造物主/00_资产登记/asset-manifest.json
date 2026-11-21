@@ -152,9 +152,9 @@
       "height": 1448,
       "format": "png_rgb",
       "sha256": "36408f861bcc703bf114187f2eeb4fc8661b028e0e4ceb193a2f702d5056f693",
-      "status": "staged",
+      "status": "committed",
       "review": "draft",
-      "notes": "原始PNG的11个Base64分块已提交GitHub且各块SHA校验通过；等待GitHub Actions无损还原。"
+      "notes": "原始PNG已通过GitHub Actions重组、核对SHA256后提交至正式路径。"
     }
   ],
   "video": {
@@ -163,7 +163,7 @@
     "prompt_folder": "05_视频/EP01/镜头提示词",
     "keyframes_status": "missing"
   },
-  "version": "4.1-staging",
+  "version": "4.2",
   "last_updated": "2026-11-21",
-  "story_status": "CH-04 PNG committed; BG-02-A original PNG staged as verified chunks awaiting GitHub Actions restoration; EP01 standalone panels missing."
+  "story_status": "V4 CH-04 and BG-02-A original PNG both committed; artwork review draft; EP01 standalone panels missing"
 }
