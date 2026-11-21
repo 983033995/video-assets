@@ -1,5 +1,5 @@
 # BG-02｜R7屋顶（Scene Anchor）
-**状态：draft / local_only**。PNG 已在创作会话生成，尚未将字节同步至 GitHub。
+**状态：draft / committed**。原始 RGB PNG 已经无损保存到 GitHub，SHA-256 与生成文件完全一致；美术审核仍待通过。
 
 - 锚图：`BG02_A_空景_v001.png`
 - 生成日期：2026-11-21
