@@ -155,6 +155,36 @@
       "status": "committed",
       "review": "draft",
       "notes": "原始PNG已通过GitHub Actions重组、核对SHA256后提交至正式路径。"
+    },
+    {
+      "id": "EP01-P01-A",
+      "name": "墨港午夜单格候选A（优先审片）",
+      "source_filename": "a_moody_cinematic_cyberpunk_cityscape_in_heavy_ra.png",
+      "target_path": "04_漫画/EP01/画格/EP01_P01_A_墨港午夜_候选_v001.png",
+      "conversation_file_id": "file_00000000426c81fb9efd0c650a49005c",
+      "bytes": 3462566,
+      "width": 1086,
+      "height": 1448,
+      "format": "png_rgb",
+      "sha256": "5b6ed5b120d479f2e6ef564627ed4acfe26f0fea29082ab41af706f1edeca943",
+      "status": "local_only",
+      "review": "draft",
+      "notes": "原始PNG已生成，尚未提交GitHub。候选A优先审片；不能以登记记录代替二进制文件。"
+    },
+    {
+      "id": "EP01-P01-B",
+      "name": "墨港午夜单格候选B（对照）",
+      "source_filename": "a_cinematic_cyberpunk_sci_fi_cityscape_wide_verti.png",
+      "target_path": "04_漫画/EP01/画格/EP01_P01_B_墨港午夜_候选_v001.png",
+      "conversation_file_id": "file_00000000427481fba02826e7fded398d",
+      "bytes": 3008346,
+      "width": 1086,
+      "height": 1448,
+      "format": "png_rgb",
+      "sha256": "df9042733800a7921f1cb452394c25018d04c3d1a46d02eaac9885b6c7bc11e0",
+      "status": "local_only",
+      "review": "draft",
+      "notes": "原始PNG已生成，仅作为备选候选；无字单格，不可视为已提交GitHub。"
     }
   ],
   "video": {
@@ -163,7 +193,7 @@
     "prompt_folder": "05_视频/EP01/镜头提示词",
     "keyframes_status": "missing"
   },
-  "version": "4.2",
+  "version": "5.0",
   "last_updated": "2026-11-21",
-  "story_status": "V4 CH-04 and BG-02-A original PNG both committed; artwork review draft; EP01 standalone panels missing"
+  "story_status": "V5 EP01-P01 A/B standalone PNG candidates generated, both local_only/draft; CH-04 and BG02-A committed/draft; all prior PRs merged into main; BG02-B/C and P02-P18 images remain missing."
 }
