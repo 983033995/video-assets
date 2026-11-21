@@ -132,14 +132,14 @@
       "source_filename": "a_high_detail_stylized_ink_comic_character_illustr.png",
       "target_path": "02_角色资产/CH-04_白檐/白檐_独立定妆_候选_v001.png",
       "conversation_file_id": "file_00000000053081fbb5bb241d2e7eaf8e",
-      "status": "local_only",
+      "status": "committed",
       "review": "draft",
       "bytes": 1863425,
       "width": 1024,
       "height": 1536,
       "format": "png_rgb",
       "sha256": "ee2676e4b54c7b6423171fc202d3130cfad15174cd9d394b0f8637a7ad37fd01",
-      "notes": "2026-11-21 生成。只有一位白檐、完整单人站姿候选图；缺正侧背、面罩详解。GitHub 尚未存入 PNG 字节，严禁标作 committed。"
+      "notes": "原始RGB PNG已无损提交，Git对象SHA c67b31c31e957a726ef223a5bb71cfc18b05d9fa；美术审核仍为draft。"
     },
     {
       "id": "BG-02-A",
@@ -152,9 +152,9 @@
       "height": 1448,
       "format": "png_rgb",
       "sha256": "36408f861bcc703bf114187f2eeb4fc8661b028e0e4ceb193a2f702d5056f693",
-      "status": "local_only",
+      "status": "staged",
       "review": "draft",
-      "notes": "2026-11-21 生成单张高俯拍空景，双水箱、中央机房、北侧女儿墙缺口与东北断天线可辨；已打包在对话V4独立资产包中，GitHub PNG 尚未提交；未通过人工最终审核。"
+      "notes": "原始PNG的11个Base64分块已提交GitHub且各块SHA校验通过；等待GitHub Actions无损还原。"
     }
   ],
   "video": {
@@ -163,7 +163,7 @@
     "prompt_folder": "05_视频/EP01/镜头提示词",
     "keyframes_status": "missing"
   },
-  "version": "4.0-draft",
+  "version": "4.1-staging",
   "last_updated": "2026-11-21",
-  "story_status": "V4 CH-04 & BG-02-A independent candidate PNG created, both local_only; EP01 P01–P04 standalone panels still missing, three comic-collage attempts rejected"
+  "story_status": "CH-04 PNG committed; BG-02-A original PNG staged as verified chunks awaiting GitHub Actions restoration; EP01 standalone panels missing."
 }

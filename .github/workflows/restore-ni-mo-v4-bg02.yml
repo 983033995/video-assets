@@ -1,0 +1,60 @@
+name: Restore NI-MO V4 original PNG
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.asset-staging/ni-mo-v4/bg02/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: restore-ni-mo-v4-bg02
+  cancel-in-progress: false
+
+jobs:
+  restore-original-png:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - name: Restore original PNG and verify both assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          count=$(find .asset-staging/ni-mo-v4/bg02/ -name 'part-*.b64' -type f | wc -l)
+          test "$count" -eq 11
+          dest="projects/逆墨：第七位造物主/03_场景资产/BG-02_R7屋顶/BG02_A_空景_v001.png"
+          mkdir -p "$(dirname "$dest")"
+          cat .asset-staging/ni-mo-v4/bg02/part-*.b64 | base64 --decode > "$dest"
+          echo "36408f861bcc703bf114187f2eeb4fc8661b028e0e4ceb193a2f702d5056f693  $dest" | sha256sum --check --status
+          echo "ee2676e4b54c7b6423171fc202d3130cfad15174cd9d394b0f8637a7ad37fd01  projects/逆墨：第七位造物主/02_角色资产/CH-04_白檐/白檐_独立定妆_候选_v001.png" | sha256sum --check --status
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("projects/逆墨：第七位造物主/00_资产登记/asset-manifest.json")
+          data = json.loads(p.read_text(encoding="utf-8"))
+          bg = next(x for x in data["images"] if x.get("id") == "BG-02-A")
+          assert bg["sha256"] == "36408f861bcc703bf114187f2eeb4fc8661b028e0e4ceb193a2f702d5056f693"
+          bg["status"] = "committed"
+          bg["review"] = "draft"
+          bg["notes"] = "原始PNG已通过GitHub Actions重组、核对SHA256后提交至正式路径。"
+          data["version"] = "4.2"
+          data["story_status"] = "V4 CH-04 and BG-02-A original PNG both committed; artwork review draft; EP01 standalone panels missing"
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+      - name: Commit verified image and manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "projects/逆墨：第七位造物主/03_场景资产/BG-02_R7屋顶/BG02_A_空景_v001.png" "projects/逆墨：第七位造物主/00_资产登记/asset-manifest.json"
+          if ! git diff --cached --quiet; then
+            git commit -m "assets(ni-mo): restore verified original BG02-A PNG"
+            git push origin HEAD:main
+          fi
